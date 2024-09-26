@@ -1,0 +1,73 @@
+.main-content .triphistory-container .history-box .bottom-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content .triphistory-container .history-box .bottom-box form{
+    background-color: #E1E1E1;
+    width: 800px;
+    height: 420px;
+    color: black;
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    position: relative;
+}
+
+.main-content .triphistory-container .history-box .bottom-box form ul:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content .triphistory-container .history-box .bottom-box form ul:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.main-content .triphistory-container .history-box .bottom-box form ul:nth-child(2) li:nth-child(1) input,
+.main-content .triphistory-container .history-box .bottom-box form ul:nth-child(2) li:nth-child(2) input{
+    width: 300px;
+}
+
+.main-content .triphistory-container .history-box .bottom-box form ul li{
+    width: 150px;
+    height: 60px;
+    list-style: none;
+}
+
+.main-content .triphistory-container .history-box .bottom-box form ul:nth-child(1) li input{
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.main-content .triphistory-container .history-box .bottom-box form ul:nth-child(2) li input{
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.main-content .triphistory-container .history-box .bottom-box form .button input{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #0046FA;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main-content .triphistory-container .history-box .bottom-box form .button input:hover{
+    opacity: 50%;
+}
